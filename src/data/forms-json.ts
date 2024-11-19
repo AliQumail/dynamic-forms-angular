@@ -10,6 +10,7 @@ export const formsJson = [
       "hint": "Use only letters",
       "required": true,
       "type": "textbox",
+      "value": "Mike"
       
     },
     {
@@ -32,6 +33,7 @@ export const formsJson = [
       "placeholder": "enter your country",
       "hint": "",
       "type": "dropdown",
-      "options": ["USA", "Canada", "Iran", "Pakistan"]
+      "options": ["USA", "Canada", "Iran", "Pakistan"],
+      "value": "Iran"
     },
 ];

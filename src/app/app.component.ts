@@ -27,7 +27,7 @@ export class AppComponent implements OnInit {
     // loop through the JSON file and add each of them as control inside the formGroup
     formsJson.forEach((field: any) => {
       if (!field.hidden) {
-        group[field.name] = [''];  
+        group[field.name] = [field.value ? field.value : '', field.required ? [Validators.required]: []];  
       }
     });
     
