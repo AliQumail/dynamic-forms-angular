@@ -36,4 +36,13 @@ export const formsJson = [
       "options": ["USA", "Canada", "Iran", "Pakistan"],
       "value": "Iran"
     },
+    {
+      "name": "food",
+      "label": "Food",
+      "placeholder": "enter your favourite food",
+      "hint": "",
+      "type": "multiselectdropdown",
+      "options": ["Pizza", "Burger", "Noodles", "Ice Cream", "Steaks"],
+      "value": ["Pizza", "Burger", "Noodles"]
+    },
 ];

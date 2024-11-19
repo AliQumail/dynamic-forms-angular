@@ -21,6 +21,17 @@
             {{ option }}
           </option>
         </select>
+
+        <select
+        *ngIf="field.type == 'multiselectdropdown'"
+        [formControlName]="field.name"
+        class="form-select"
+        multiple
+      >
+        <option *ngFor="let option of field.options" [value]="option">
+          {{ option }}
+        </option>
+      </select>
       </div>
     </div>
     <button
